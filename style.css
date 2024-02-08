@@ -113,6 +113,10 @@ a {
     width: 100%;
     border-radius: 0.5rem;
 }
+.card-title {
+    color: rgb(230, 181, 146);
+    margin: 0.5rem 0;
+}
 h5 {
     font-size: 1.5rem;
     margin: 0.5rem 0;
