@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Pacifico&family=Roboto&display=swap');
+
+body {
+  font-family: roboto, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    margin: 0.2rem 0;
+    padding: 0.1rem 0;
+    background-color: rgba(168, 51, 51, 0.212);
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.nav .nav-link.active {
+  color: white;
+  background-color: rgba(180, 121, 53, 0.623);
+}
+.nav-item {
+  color: white;
+  font-weight: 500;
+  margin: 0 0.5rem;
+  transition: 0.3s;
+    border-radius: 0.5rem;
+}
+.nav-item:hover {
+  transform: scale(1.1);
+    color: rgba(255, 255, 255, 0.767);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+  color: white;
+}
+
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: cinzel decorative, sans-serif;
+    font-weight: 500;
+}
+
+.navbar-toggler {
+  background-color: rgba(255, 255, 255, 0.459);
+  color: rgba(255, 255, 255, 0.767);
+}
+
+
+
+
+
+h2 {
+    margin: 0.5rem 0;
+    color: rgba(5, 5, 5, 0.815);
+    font-family: Pacifico, cursive;
+}
+.evento {
+    color: rgba(168, 51, 51, 0.815);
+}

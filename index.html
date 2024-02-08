@@ -4,9 +4,149 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Oscar 2024</title>
-    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/icon/Design_sem_nome__2_-removebg-preview.png"
+      type="image/x-icon"
+    />
   </head>
+
   <body>
+    <header class="navbar navbar-expand-lg sticky-top pt-2" id="cabecalho">
+      <div class="container">
+        <h1 class="navbar-brand">Oscar 2024</h1>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu-navegacao"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav
+          class="navbar-collapse collapse justify-content-end"
+          id="menu-navegacao"
+        >
+          <ul class="nav nav-pills d-block d-md-flex">
+            <li class="nav-item">
+              <a href="#sobre-o-evento" class="nav-link">
+                <i class="bi bi-house me-1"></i>
+                Sobre o evento
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <i class="bi bi-collection me-1"></i>
+                Categorias
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <i class="bi bi-award me-1"></i>
+                Indicações
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <i class="bi bi-chat-square me-1"></i>
+                Fale conosco
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="sobre o evento">
+
+        <div id="corousel" class="carousel slide" data-bs-ride="carousel">
+            
+              <!-- Slides de imagens -->
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="./images/slides/barbie.jpeg" alt="Imagem 1" class="w-100">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./images/slides/Oppenheimer.jpeg" alt="Imagem 2" class="w-100">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./images/slides/nimona.png" alt="Imagem 3" class="w-100">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./images/slides/poor_things.jpeg" alt="Imagem 4" class="w-100">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./images/slides/siper_man.jpeg" alt="Imagem 5" class="w-100">
+              </div>
+            </div>
+            
+            <!-- Indicadores (barras inferiores) -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+              <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+              <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+            </div>
+          
+          
+          
+            <!-- Controles -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+
+            
+          </div>
+
+      <div class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <img
+                src="./images/11097.jpg"
+                class="d-block w-100 rounded"
+                alt="estatueta oscar"
+              />
+            </div>
+            <div class="col-md-7">
+              <h2>Sobre <span class="evento">o evento</span></h2>
+              <p>
+                A 96ª edição do Oscar está marcada para 10 de março de 2024, um
+                domingo. A cerimônia será realizada no icônico Dolby Theatre, em
+                Los Angeles, Califórnia, e terá início às 16h na Califórnia
+                (20h, no horário de Brasília) 1. O comediante e escritor Jimmy
+                Kimmel apresentará o evento, marcando sua quarta vez como
+                anfitrião da premiação.
+              </p>
+              <p>
+                A cerimônia do Oscar costuma durar cerca de 3 horas e 30
+                minutos. Este ano, houve uma mudança no horário de início para
+                garantir que a transmissão encerre em horário nobre nos estados
+                do leste dos Estados Unidos, que estão três horas à frente da
+                Califórnia No Brasil, você poderá assistir à transmissão pelo
+                streaming da HBO Max.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+
+    </div>
+
     <script src="./bootstrap.bundle.min.js"></script>
   </body>
 </html>
