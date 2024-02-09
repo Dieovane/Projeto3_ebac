@@ -148,7 +148,7 @@
 
 <!-- Notícias -->
     <section id="Notícias">
-      <div class="container">
+      <div class="container news">
         <h2>Notícias</h2>
         <div class="row">
           <div class="col-md-4">
@@ -211,67 +211,111 @@
     <section id="indicados">
       <div class="row">
         <h2 class="section-title text-center">
-          Algumas <span>Indicações</span>
+          Algumas <span>Categorias</span>
         </h2>
       </div>
-      <div class="row indicacoes" >
-        <aside class="col-md-2 m-1">
-          <nav class="nav nav-pills flex-column nav-categorias">
-            <button type="button" class="nav-link active text-colored text-start">Melhor Filme</button>
-            <button type="button" class="nav-link text-colored text-start">Melhor Roteiro adaptado</button>
-            <button type="button" class="nav-link text-colored text-start">Melhor Canção original</button>
-            <button type="button" class="nav-link text-colored text-start">Melhor Animação</button>
-          </nav>
-        </aside>
-        <div class="col-md-8">
-          <div class="tab-content">
-            <div class="tab-pane active">
-              <div class="row">
-                <div class="card-indicado col-md-3">
-                  <img class="d-block w-100" src="./images/indicados/melhores filmes/barbie.jpg" alt="Barbie poster">
-                  <h5 class="text-colored mt-2">Barbie</h5>
-                </div>
-                <div class="card-indicado col-md-3">
-                  <img class="d-block w-100" src="./images/indicados/melhores filmes/PoorThings.jpg" alt="poor things poster">
-                  <h5 class="text-colored mt-2">Pobres Criaturas</h5>
-                </div>
-                <div class="card-indicado col-md-3">
-                  <img class="d-block w-100" src="./images/indicados/melhores filmes/Oppenheimer.jpg" alt="Oppenheimer poster">
-                  <h5 class="text-colored mt-2">Oppenheimer</h5>
-                </div>
-                <div class="card-indicado col-md-3">
-                  <img class="d-block w-100" src="./images/indicados/melhores filmes/AnatomiaDeUmaQueda.jpg" alt="Anatomia de Uma Queda poster">
-                  <h5 class="text-colored mt-2">Anatomia de Uma Queda</h5>
-                </div>
-                <div class="card-indicado col-md-3">
-                  <img class="d-block w-100" src="./images/indicados/melhores filmes/maestro.jpg" alt="">
-                  <h5 class="text-colored mt-2">Maestro</h5>
-                </div>
-                <div class="card-indicado col-md-3">
-                  <img class="d-block w-100" src="./images/indicados/melhores filmes/VidasPassadas.jpg" alt="Vidas Passadas poster">
-                  <h5 class="text-colored mt-2">Vidas Passadas</h5>
-                </div>
-                <div class="card-indicado col-md-3">
-                  <img class="d-block w-100" src="./images/indicados/melhores filmes/ZonaDeInteresse.jpg" alt="Zona de Interesse poster">
-                  <h5 class="text-colored mt-2">Zona de Interesse</h5>
-                </div>
-                <div class="card-indicado col-md-3">
-                  <img class="d-block w-100" src="./images/indicados/melhores filmes/OsRejeitados.jpeg" alt="Os Rejeitados poster">
-                  <h5 class="text-colored mt-2">Os Rejeitados</h5>
-                </div>
-                <div class="card-indicado col-md-3">
-                  <img class="d-block w-100" src="./images/indicados/melhores filmes/AssassinosDaLuaDasFlores.jpeg" alt="Assassinos da Lua das Flores poster">
-                  <h5 class="card-indicado text-colored mt-2">Assassinos da Lua das Flores</h5>
-                </div>
-                <div class="card-indicado col-md-3">
-                  <img class="d-block w-100" src="./images/indicados/melhores filmes/american_fiction.jpg" alt="American Fiction poster">
-                  <h5 class="text-colored mt-2">American Fiction</h5>
-                </div>
+      
+
+      <nav class="categorias">
+        <div class="nav nav-tabs nav-categorias" id="nav-tab" role="tablist">
+          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-selected="true">Melhor Filme</button>
+          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-selected="false">Melhor Roteiro adaptado</button>
+          <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab"  aria-selected="false">Melhor Canção original</button>
+          <button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled" type="button" role="tab" aria-selected="false">Melhor Animação</button>
+        </div>
+      </nav>
+
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+          <div class="row">
+            <div class="card-indicado col-md-3">
+              <img class="d-block w-100" src="./images/indicados/melhores filmes/barbie.jpg" alt="Barbie poster">
+              <div class="card-body">
+                <h5 class="titulo-filme text-start">Barbie</h5>
+                <a href="https://www.youtube.com/watch?v=-yKtIaTDi24">
+                  <button class="bn632-hover bn24">Assista ao trailer</button></a>
+              </div>
+
+            </div>
+            <div class="card-indicado col-md-3">
+              <img class="d-block w-100" src="./images/indicados/melhores filmes/PoorThings.jpg" alt="poor things poster">
+              <div class="card-body">
+                <h5 class="text-colored mt-2">Pobres Criaturas</h5>
+                <a href="https://www.youtube.com/watch?v=-yKtIaTDi24">
+                  <button class="bn632-hover bn24">Assista ao trailer</button></a>
+              </div>
+              
+            </div>
+            <div class="card-indicado col-md-3">
+              <img class="d-block w-100" src="./images/indicados/melhores filmes/Oppenheimer.jpg" alt="Oppenheimer poster">
+              <div class="card-body">
+                <h5 class="text-colored">Oppenheimer</h5>
+                <a href="https://www.youtube.com/watch?v=-yKtIaTDi24">
+                  <button class="bn632-hover bn24">Assista ao trailer</button></a>
+              </div>
+            </div>
+            <div class="card-indicado col-md-3">
+              <img class="d-block w-100" src="./images/indicados/melhores filmes/AnatomiaDeUmaQueda.jpg" alt="Anatomia de Uma Queda poster">
+              <div class="card-body">
+                <h5 class="text-colored">Anatomia de Uma Queda</h5>
+                <a href="https://www.youtube.com/watch?v=-yKtIaTDi24">
+                  <button class="bn632-hover bn24">Assista ao trailer</button></a>
+              </div>
+            </div>
+            <div class="card-indicado col-md-3">
+              <img class="d-block w-100" src="./images/indicados/melhores filmes/maestro.jpg" alt="">
+              <div class="card-body">
+                <h5 class="text-colored mt-2">Maestro</h5>
+                <a href="https://www.youtube.com/watch?v=-yKtIaTDi24">
+                  <button class="bn632-hover bn24">Assista ao trailer</button></a>
+              </div>
+            </div>
+            <div class="card-indicado col-md-3">
+              <img class="d-block w-100" src="./images/indicados/melhores filmes/VidasPassadas.jpg" alt="Vidas Passadas poster">
+              <div class="card-body">
+                <h5 class="text-colored mt-2">Vidas Passadas</h5>
+                <a href="https://www.youtube.com/watch?v=-yKtIaTDi24">
+                  <button class="bn632-hover bn24">Assista ao trailer</button></a>
+              </div>
+            </div>
+            <div class="card-indicado col-md-3">
+              <img class="d-block w-100" src="./images/indicados/melhores filmes/ZonaDeInteresse.jpg" alt="Zona de Interesse poster">
+              <div class="card-body">
+                <h5 class="text-colored mt-2">Zona de Interesse</h5>
+                <a href="https://www.youtube.com/watch?v=-yKtIaTDi24">
+                  <button class="bn632-hover bn24">Assista ao trailer</button></a>
+              </div>
+            </div>
+            <div class="card-indicado col-md-3">
+              <img class="d-block w-100" src="./images/indicados/melhores filmes/OsRejeitados.jpeg" alt="Os Rejeitados poster">
+              <div class="card-body">
+                <h5 class="text-colored mt-2">Os Rejeitados</h5>
+                <a href="https://www.youtube.com/watch?v=-yKtIaTDi24">
+                  <button class="bn632-hover bn24">Assista ao trailer</button></a>
+              </div>
+              
+            </div>
+            <div class="card-indicado col-md-3">
+              <img class="d-block w-100" src="./images/indicados/melhores filmes/AssassinosDaLuaDasFlores.jpeg" alt="Os Rejeitados poster">
+              <div class="card-body">
+                <h5 class="text-colored mt-2">Assassinos da Lua das Flores</h5>
+                <a href="https://www.youtube.com/watch?v=-yKtIaTDi24">
+                  <button class="bn632-hover bn24">Assista ao trailer</button></a>
+              </div>
+            </div>
+            <div class="card-indicado col-md-3">
+              <img class="d-block w-100" src="./images/indicados/melhores filmes/american_fiction.jpg" alt="American Fiction poster">
+              <div class="card-body">
+                <h5 class="text-colored mt-2">American Fiction</h5>
+                <a href="https://www.youtube.com/watch?v=-yKtIaTDi24">
+                  <button class="bn632-hover bn24">Assista ao trailer</button></a>
               </div>
             </div>
           </div>
         </div>
-        </div>
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">...</div>
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">...</div>
+        <div class="tab-pane fade" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabindex="0">...</div>
       </div>
 
     </section>
