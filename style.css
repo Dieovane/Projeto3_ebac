@@ -21,15 +21,16 @@ html {
 
 .navbar {
     position: fixed;
-    width: 100%;
-    margin: 0;
+    width: 92%;
+    margin: 1rem 4%;
     padding: 0;
-    
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(10px);
-    background: -webkit-linear-gradient(to right, #2106618e, #7802067e);
-    background: linear-gradient(to right, #1a06616e, #7802068c);
+    border-radius: 5rem;
 
+
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(10px);
+    background: -webkit-linear-gradient(to right, #21066127, #7802063d);
+    background: linear-gradient(to right, #1a06613f, #78020636);
 }
 
 #cabecalho .nav .nav-link.active {
@@ -79,6 +80,13 @@ iframe {
   iframe {
     width: 100%;
     height: 30vh;
+  }
+  
+}
+@media screen (min-width: 768px) and (max-width: 991px) {
+  .carousel-inner img {
+    height: 30vh;
+    width: 100%;
   }
   
 }
