@@ -235,7 +235,7 @@ h5 {
 
 .tab-content {
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 2.5rem;
+  padding: 0 2.5rem;
   margin: 0;
 }
 
@@ -310,4 +310,15 @@ h5 {
 }
 
 
-
+/*footer*/
+.footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 0 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
