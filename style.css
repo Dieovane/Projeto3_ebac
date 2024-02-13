@@ -82,6 +82,7 @@ html {
 
 .carousel-item img {
   object-fit: cover;
+  height: 90vh;
 }
 
 /*carrossel logo*/
