@@ -235,8 +235,10 @@ h5 {
 
 .tab-content {
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 0 2.5rem;
+  padding: 0 2.5rem 0rem 2rem;
   margin: 0;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
 }
 
 .card-indicado {
@@ -311,14 +313,44 @@ h5 {
 
 
 /*footer*/
-.footer {
-  background-color: #1a1a1a;
-  color: #fff;
-  padding: 0 0 20px;
-  font-size: 15px;
-  line-height: 24px;
-  font-weight: 400;
+footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem 0;
+  margin: 3rem 0 0 0;
+  color: rgba(255, 255, 255, 0.904);
   text-align: center;
-  position: relative;
-  z-index: 2;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+form {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+
+form input {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+
+
+footer li {
+  list-style: none;
+  margin: 0.5rem 0;
+
+}
+footer a {
+  color: rgba(255, 255, 255, 0.904);
+  text-decoration: none;
+  transition: 0.3s;
+}
+footer a:hover {
+  color: rgba(231, 146, 107, 0.767);
 }
