@@ -62,6 +62,18 @@ html {
   font-family: cinzel decorative, sans-serif;
     font-weight: 500;
 }
+@media screen and (max-width: 767px){
+  .navbar {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+  .navbar-brand {
+    font-size: 1.3rem;
+  }
+
+  
+}
 
 .navbar-toggler {
   background-color: rgba(255, 255, 255, 0.459);
