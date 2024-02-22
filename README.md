@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img alt="" src="./github/Design_sem_nome__3_-removebg-preview.png" width="100%">
+  <img alt="" src="./github/Design sem nome (4) (1).png" width="100%">
 </p>
 
 <p align="center">
