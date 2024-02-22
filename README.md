@@ -1,11 +1,9 @@
 <h1 align="center">
   Oscar 2024
 </h1>
-
 <p align="center">
   <img alt="" src="./github/Design sem nome (4) (1).png" width="100%">
 </p>
-
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
